@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="item-nav">
+        <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
+        <div class="item-lista">
+            <div class="mylista">
+                <button class="item-button" id="button-musica">Músicas</button>
+                <button class="item-button">Categorias</button>
+            </div>
+            <ul>
+                <li class="item-musica">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="">
+                        <p class="nome-musica">Nome Música</p>
+                        <p class="nome-artista">Nome artista</p>
+                    </a>
+                </li>
+                <li class="item-musica">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="">
+                        <p class="nome-musica">Nome Música</p>
+                        <p class="nome-artista">Nome artista</p>
+                    </a>
+                </li>
+                <li class="item-musica">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="">
+                        <p class="nome-musica">Nome Música</p>
+                        <p class="nome-artista">Nome artista</p>
+                    </a>
+                </li>
+                <li class="item-musica">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="">
+                        <p class="nome-musica">Nome Música</p>
+                        <p class="nome-artista">Nome artista</p>
+                    </a>
+                </li>
+                <li class="item-musica">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="">
+                        <p class="nome-musica">Nome Música</p>
+                        <p class="nome-artista">Nome artista</p>
+                    </a>
+                </li>
+                <li class="item-musica">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="">
+                        <p class="nome-musica">Nome Música</p>
+                        <p class="nome-artista">Nome artista</p>
+                    </a>
+                </li>
+                <li class="item-musica">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="">
+                        <p class="nome-musica">Nome Música</p>
+                        <p class="nome-artista">Nome artista</p>
+                    </a>
+                </li>
+                <li class="item-musica">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="">
+                        <p class="nome-musica">Nome Música</p>
+                        <p class="nome-artista">Nome artista</p>
+                    </a>
+                </li>
+                <li class="item-musica">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="">
+                        <p class="nome-musica">Nome Música</p>
+                        <p class="nome-artista">Nome artista</p>
+                    </a>
+                </li>
+                <li class="item-musica">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="">
+                        <p class="nome-musica">Nome Música</p>
+                        <p class="nome-artista">Nome artista</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="visu_animacao">
+        <div class="animacao">
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="inforAudio">
+            <h4>Nome artista - <p>Nome música</p></h4>
+            <input type="range" class="input-range" min="0" value="0" step="1">
+            <div class="infor-tempo">
+                <p>1:10</p>
+                <p>3:15</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-play" onclick="produzirAudio()"></i>
+            <i class="fa-solid fa-forward"></i>
+        </div>
+
+        <audio class="musica">
+            <source src="Kenn Colt - Sun Goes Down (Official Lyric Video)(MP3_160K).mp3" type="audio/mp3">
+            o brawser não suporta o arquivo
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
